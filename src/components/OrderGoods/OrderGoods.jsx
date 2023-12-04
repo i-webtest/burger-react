@@ -17,7 +17,7 @@ export const OrderGoods = ({ item }) => {
         </p>
       </div>
 
-      <Count count={5} />
+      <Count count={1} />
     </li>
   );
 };

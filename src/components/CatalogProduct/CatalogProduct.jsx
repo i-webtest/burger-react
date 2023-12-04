@@ -1,7 +1,6 @@
 import s from './CatalogProduct.module.css';
 
 export const CatalogProduct = ({ title }) => {
-  console.log(title);
   return (
     <article className={s.product}>
       <img src='img/photo-5.jpg' alt={title} className={s.product__image} />
