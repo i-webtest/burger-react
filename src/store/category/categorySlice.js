@@ -33,16 +33,6 @@ const categorySlice = createSlice({
       .addCase(categoryRequestAsync.rejected, (state, action) => {
         state.error = action.payload.error;
       });
-    // [categoryRequestAsync.pending.type]: (state) => {
-    //   state.error = '';
-    // },
-    // [categoryRequestAsync.fulfilled.type]: (state, action) => {
-    //   state.error = '';
-    //   state.category = action.payload;
-    // },
-    // [categoryRequestAsync.rejected.type]: (state, action) => {
-    //   state.error = action.payload.error;
-    // },
   },
 });
 
